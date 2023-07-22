@@ -51,7 +51,7 @@ node ./index.js
 
 That's it.
 
-## Use Cases
+## Use cases
 
 - Run web scraper script efficiently using existing browser instance.
 - Just use your imagination.
