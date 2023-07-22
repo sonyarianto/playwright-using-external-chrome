@@ -29,6 +29,35 @@ I am using Windows 11 so here is my command to start the Chrome for Testing.
 Start-Process -FilePath "C:\Users\Sony AK\chrome\win64-115.0.5790.102\chrome-win64\chrome.exe" -ArgumentList "--remote-debugging-port=9222"
 ```
 
+I am using WSL2 in Windows 11, so here is my command to start Chrome for Testing.
+
+```
+~/chrome/linux-115.0.5790.102/chrome-linux64/chrome
+```
+
+the `115.0.5790.102` is just the version of Chrome for Testing on my local machine. Adjust that accordingly.
+
 ## The script
 
-I already create the `index.js` script as quick
+I already create the `index.js` script as quick sample. Just open that.
+
+## Running the script
+
+Just type below command. Make sure the Chrome for Testing already run before you run below command.
+
+```
+node ./index.js
+```
+
+That's it.
+
+## Use Cases
+
+- Run web scraper script efficiently using existing browser instance.
+- Just use your imagination.
+
+## License
+
+MIT
+
+Maintained by Sony Arianto Kurniawan <<sony@sony-ak.com>> and contributors.
