@@ -15,7 +15,7 @@ npx @puppeteer/browsers install chrome@stable
 
 After installation finished it will display the location of installed Chrome for Testing.
 
-## Run the Chrome for Testing
+## Run the "Chrome for Testing"
 
 To run the Chrome for Testing that will accept CDP connection please run with this command.
 
