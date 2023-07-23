@@ -4,7 +4,7 @@ Quick sample of how to use Playwright to control external Chrome via CDP (Chrome
 ## Overview
 Mostly sample on the internet is about using Playwright with bundled Chromium. How about to use external or existing installed Chrome? That's this repository purpose, to give you example how to do it.
 
-## Chrome for Testing
+## Use "Chrome for Testing" as external Chrome
 Instead of using your existing installed Chrome, now you can use Chrome for Testing to install Chrome for the purpose of automation or testing. This is very neat solution from Chrome team. It comes with versioned Chrome side-by-side with current stable version. Please read more at https://developer.chrome.com/blog/chrome-for-testing
 
 I am using this command to download latest available Chrome for Testing binary corresponding to Stable channel.
