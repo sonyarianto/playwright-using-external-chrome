@@ -37,6 +37,8 @@ I am using WSL2 in Windows 11, so here is my command to start Chrome for Testing
 
 the `115.0.5790.102` is just the version of Chrome for Testing on my local machine. Adjust that accordingly.
 
+This part is very crucial, the `--remote-debugging-port=9222` is the one that will make Chrome for Testing to accept CDP connection. The `9222` is the port number. You can change that to any port number you want. If you interested more about CDP please read https://chromedevtools.github.io/devtools-protocol/.
+
 ## The script
 
 I already create the `index.js` script as quick sample. Just open that.
